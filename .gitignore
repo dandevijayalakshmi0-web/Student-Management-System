@@ -1,0 +1,11 @@
+env/
+venv/
+
+students.db
+
+.env
+
+__pycache__/
+*.pyc 
+*.pyo 
+.vscode/

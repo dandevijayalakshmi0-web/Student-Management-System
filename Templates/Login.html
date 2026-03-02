@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="/static/style.css">
+        <style>
+            *{
+                background-color: aqua;
+            }
+           form{
+             background-color: pink;
+
+            }
+            body{
+                background-color: aqua;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 >User Login</h2>
+
+        <form method="POST">
+            <label style="background-color: pink;color:black">UserName:</label><br>
+            <input type="text" name="UserName" required><br><br>
+
+            <label style="background-color: pink;color:black">Password:</label><br>
+            <input type="password" name="Password" required><br><br>
+
+            <button type="submit">Login</button>
+
+        </form>
+        <a href="/Register">Don't have an account? Register</a>
+    </body>
+</html>

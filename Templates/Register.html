@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <titile>Register</titile>
+        <link rel="stylesheet" href="/static/style.css">
+        <style>
+            *{
+                background-color: bisque;
+
+            }
+            h2{
+                background-color: orange;
+                color: blueviolet;
+                width:350px;
+                margin-left: 200px;
+               
+            }
+            body{
+                background-color: bisque;
+            }
+            form{
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>User Registration</h2>
+        <form method="POST">
+            <label>UserName:</label><br>
+            <input type="text" name="UserName"required><br><br><br>
+             
+            <label>Password:</label><br>
+            <input type="password" name="Password"required><br><br><br>
+
+            <button type="submit">Register</button>
+        </form>
+        <br>
+        <a href="/Login">Already have an account?Login</a>
+    </body>
+</html>
